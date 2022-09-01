@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body{
+            background-color: rgb(148, 40, 210); /* Comentário no CSS */
+            font: normal 20pt arial;
+            color: white;
+        }
+        h1  {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1> // Isso não é um comentário no HTML. <!-- Comentário no HTML -->
+    <p>Já me livrei da maldição...</p>
+    <script>
+        var n1 = Number.parseFloat(window.prompt('Digite um número: ')); // string 
+        var n2 = Number(window.prompt('Digite um outro número: ')); // string
+        var s = n1 + n2
+        window.alert('A soma dos valores é: ' + String.s) // O + serve para Concatenação, e juntou o tipo string
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}.`) // O place holder ${} funciona pra concatenar tipos diferentes numa string.
+        // + para Adição (number + number)
+        // + para Concatenação (string + string)
+        // Number.parseInt(n) para números inteiros
+        // Number.parseFloat(n) para números reais
+        // Number(n) para números à escolha do JS
+        var s = 'JavaScript'
+        // String(n)
+        // n.toString()
+        var nome = 'Gustavo'
+        var idade = 41
+        var nota = 5.5
+        /*
+        'O aluno ' + nome + ' com ' + idade + ' anos tirou a nota ' +nota) 
+        */
+
+    </script> 
+</body>
+</html>
